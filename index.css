@@ -110,7 +110,7 @@ header{
 
 .cover {
     position: relative;
-    height: 100vh;
+    height: 89vh;
     width: 100vw;
     background-size: cover;
     background-position: center;
@@ -149,4 +149,20 @@ header{
     font-size: 3rem;
     font-family: 'Rowdies';
     padding: 20px;
+}
+
+.content #contact-btn{
+    width: 104px;
+    height: 38px;
+    margin: 12px 20px;
+    background-color: #e26906;
+    border:none;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.content #contact-btn:hover{
+    background-color: #e0a371;
+    color: black;
 }
