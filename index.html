@@ -6,7 +6,8 @@
     <title>Go Eventful</title>
     <link rel="icon" type="image/png" href="img/logo.png">
     <link rel="stylesheet" href="index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Concert+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Concert+One&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_drop_down" />
 </head>
 <body>
     <header>
@@ -22,9 +23,36 @@
                     <span id="slogan">Events Simplified</span>
                 </div>
             </div>
-            <ul><a href="#">Services</a></ul>
+            <ul class="dropdown">
+                <div class="services">
+                    <a href="#">Services</a>
+                    <span class="material-symbols-outlined">
+                        arrow_drop_down
+                    </span>
+                </div>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Wedding Planner</a></li>
+                    <li><a href="#">Music & Entertainment</a></li>
+                    <li><a href="#">Private parties</a></li>
+                </ul>
+            </ul>
             <ul><a href="#">Contact Us</a></ul>
         </div>
     </header>
+
+
+    <main>
+        <div class="cover">
+            <div class="overlay"></div>
+
+            <div class="content">
+                <span>Your Event, Our Passion</span>
+                <div class="home-slogan">
+                    <p>Bringing Your Vision to <br>Life with Go Eventful</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="index.js"></script>
 </body>
 </html>
