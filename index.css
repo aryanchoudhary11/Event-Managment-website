@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    /* overflow-x: hidden; */
 }
 
 header{
@@ -12,7 +13,7 @@ header{
 .logo-container{
     display: flex;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .name-container{
@@ -35,7 +36,7 @@ header{
 
 #logo{
     border-radius: 50%;
-    height: 70px;
+    height: 60px;
 }
 
 .navbar{
@@ -66,8 +67,6 @@ header{
 
 .services:hover a, .services:hover .material-symbols-outlined {
     color: #e26906;
-    
-
 }
 
 .dropdown {
@@ -110,7 +109,7 @@ header{
 
 .cover {
     position: relative;
-    height: 89vh;
+    height: 91vh;
     width: 100vw;
     background-size: cover;
     background-position: center;
@@ -135,6 +134,7 @@ header{
     left: 8vw;
     display: flex;
     flex-direction: column;
+    width: 50%;
 }
 
 .content span{
@@ -149,6 +149,7 @@ header{
     font-size: 3rem;
     font-family: 'Rowdies';
     padding: 20px;
+    
 }
 
 .content #contact-btn{
@@ -166,3 +167,101 @@ header{
     background-color: #e0a371;
     color: black;
 }
+
+.services-container{
+    margin: 80px 180px;
+}
+
+.services-headings{
+    text-align: center;
+    
+}
+
+.services-headings p{
+    color: #dc9c68;
+    font-family: "Montserrat",Sans-serif;
+    font-weight: 500;
+}
+
+.services-headings h2{
+    margin: 10px 0 20px 0;
+    color: #000;
+    font-family: "Montserrat",Sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 1.2em;
+}
+
+.services-headings #heading-detail{
+    text-align: center;
+    font-family: "Jost",Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #5e5d5d;
+}
+
+.services-details-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+    gap: 4rem;
+    margin-top: 47px;
+    
+}
+
+.services-details-container img{
+    height: 234px;
+}
+
+.services-details-container #services-details{
+    box-shadow: 1px 2px 11px 4px rgb(14 55 54 / 15%);
+    border-radius: 0.5rem;
+    height: 450px;
+}
+
+#services-details p {
+    text-align: left;
+    font-family: "Jost",Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.4em;
+    padding: 15px;
+    color: #5e5d5d;
+}
+
+#services-details a{
+    text-decoration: none;
+}
+
+#services-details a h3{
+    font-family: "Montserrat",Sans-serif;
+    color: #000;
+    font-weight: 600;
+    padding: 15px;
+}
+
+#services-details a:hover h3{
+    color: #e26906;
+}
+
+.services-details-container #learn-more-btn{
+    display: flex;
+    padding: 15px;
+
+    
+}
+
+.services-details-container #services-details #learn-more-btn span{
+    font-size: 20px;
+}
+
+.services-details-container #learn-more-btn a{
+    color: #dc9c68;
+}
+.services-details-container #learn-more-btn:hover a{
+    color:#e26906
+}
+
+.beach-learn-more{
+    margin-top: 23px;
+}
+
