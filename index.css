@@ -246,8 +246,6 @@ header{
 .services-details-container #learn-more-btn{
     display: flex;
     padding: 15px;
-
-    
 }
 
 .services-details-container #services-details #learn-more-btn span{
@@ -265,3 +263,71 @@ header{
     margin-top: 23px;
 }
 
+.contact-container{
+    margin: 80px 180px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(440px, auto));
+    gap: 2rem;
+    align-items: center;
+}
+
+.contact-container #contact-content #contact-subheading{
+    color: #e26906;
+    text-transform: uppercase;
+    font-family: "Montserrat",Sans-serif;
+    font-weight: 500;
+    /* padding: 15px; */
+}
+
+.contact-container #contact-content h3{
+    font-family: "Montserrat",Sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    padding: 15px 15px 15px 0;
+}
+
+.contact-container #contact-content p{
+    font-family: "Jost",Sans-serif;
+    padding: 0 15px 15px 0;
+}
+
+.contact-container #contact-form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contact-container #contact-form input{
+    padding: 13px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-family: "Jost";
+    font-size: 15px;
+}
+
+.contact-container #contact-form textarea{
+    padding: 13px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-family: "Jost";
+    font-size: 15px;
+}
+
+.contact-container #contact-form button{
+    width: 83px;
+    font-size: 13px;
+    height: 37px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #e26906;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+
+.contact-container #contact-form button:hover{
+
+    background-color: #e0a371;
+    color: black;
+}
