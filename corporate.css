@@ -39,3 +39,30 @@
     width: 105px;
     border: none;
 }
+
+.corporate-content{
+    padding: 50px 150px;
+    text-align: justify;
+}
+
+.corporate-content h2{
+    font-size: 37px;
+    font-family: "Montserrat",Sans-serif;
+    margin-bottom: 24px;
+    font-weight: 600;
+}
+
+.corporate-content p{
+    font-family: "Jost",Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: #5e5d5d;
+    margin-bottom: 10px;
+}
+
+.corporate-content img{
+    margin: 30px 0;
+    height: 660px;
+    
+}
