@@ -37,7 +37,7 @@
     height: 300px;
 }
 
-.welcome-container p{
+.welcome-container p, .history-content p{
     text-align: justify;
     font-family: "Jost",Sans-serif;
     font-size: 18px;
@@ -46,14 +46,9 @@
     color: #5e5d5d;
 }
 
-.history-content p{
-    text-align: justify;
-    font-family: "Jost",Sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.4em;
-    color: #5e5d5d;
-    padding: 0 150px 50px 150px;
+.history-content{
+    background-color: #faf7f5;
+    padding: 0 150px;
 }
 
 .ceo{
@@ -70,4 +65,40 @@
     font-family: "Montserrat",Sans-serif;
     font-size: 37px;
     margin-bottom: 17px;
+}
+
+.ceo img{
+    height: 350px;
+    box-shadow: 1px 2px 11px 4px rgb(14 55 54 / 15%);
+}
+
+.ceo p{
+    text-align: justify;
+    font-family: "Jost",Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: #5e5d5d;
+    padding-bottom: 10px;
+}
+
+.mission{
+    padding: 50px 150px 10px 150px;
+    background-color: #faf7f5;
+}
+
+.mission h3{
+    font-family: "Montserrat",Sans-serif;
+    font-size: 37px;
+    margin-bottom: 17px;
+}
+
+.mission p{
+    text-align: justify;
+    font-family: "Jost",Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: #5e5d5d;
+    padding-bottom: 10px;
 }
