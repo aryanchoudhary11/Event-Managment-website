@@ -1,14 +1,14 @@
-.party-cover {
+.wedding-cover {
     position: relative;
     height: 91vh;
     width: 100vw;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(img/private\ parties.jpg);
+    background-image: url(img/wedding\ planner.jpg);
 }
 
-.party-cover h1{
+.wedding-cover h1{
     font-size: 60px;
 }
 
