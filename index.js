@@ -15,3 +15,14 @@ function changeBackground(){
 }
 
 setInterval(changeBackground, 4000);
+
+let menuIcon = document.querySelector('#menu-box');
+let navbar = document.querySelector('.navbar');
+
+menuIcon.onclick = () => {
+  navbar.classList.toggle('active');
+}
+
+window.onscroll = () => {
+  navbar.classList.remove('active');
+}

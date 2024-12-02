@@ -111,6 +111,14 @@ header{
     justify-content: center;
 }
 
+#menu-box{
+    cursor: pointer;
+    display: none;
+    margin-right: 5%;
+}
+.after-logo-container{
+    display: none;
+}
 main{
     margin-top: 66px;
 }
@@ -524,6 +532,22 @@ main{
 }
 
 @media (max-width: 720px){
+
+    .navbar ul{
+        font-size: 14px;
+    }
+    #logo{
+        height: 47px;
+    }
+    .name-container #name{
+        font-size: 16px;
+    }
+    .name-container #slogan{
+        font-size: 6px;
+    }
+    main{
+        margin-top: 54px;
+    }
     .cover {
         height: 50vh;
         width: 100vw;
@@ -547,7 +571,80 @@ main{
     
 }
 
-@media (max-width: 612px){
+@media (max-width: 633px){
+    #menu-box{
+        display: initial;
+    }
+    .navbar{
+        position: absolute;
+        top: -500px;
+        width: 100vw;
+        background-color: #fafbfc;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 4px 4px 0 4px rgb(14 55 54 / 15%);
+        transition: 0.2s all linear;
+        
+    }
+    .navbar a{
+        padding: 1rem;
+        margin: 1rem;
+        display: block;
+        
+    }
+    .dropdown .drop-down{
+        display: none;
+    }
+    .navbar a:hover{
+        background-color:#e26906;
+        border-radius: 15px;
+        color: white;
+        width: 90vw;
+        text-align: center;
+    }
+    .dropdown:hover .dropdown-menu {
+        display: none;
+    }
+    .navbar.active{
+        top: 100%;
+    }
+    .logo-container{
+        display: none;
+    }
+    .after-logo-container{
+        display: flex;
+        align-items: center;
+        margin: 5px 0 5px 10px;
+    }
+    .after-logo-container img{
+        height: 50px;
+    }
+    
+    .after-name-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 5px;
+    }
+    
+    .after-name-container #after-name{
+        font-family: 'Bungee Spice';
+        font-size: 17px;
+    }
+    
+    .after-name-container #after-slogan{
+        letter-spacing: 2px;
+        font-size: 7px;
+        text-transform: uppercase;
+    }
+    
+    #logo{
+        border-radius: 50%;
+        height: 60px;
+    }
+    main{
+        margin-top: 50px;
+    }
     .cover {
         height: 40vh;
         width: 100vw;
