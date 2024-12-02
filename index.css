@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    /* overflow-x: hidden; */
 }
 
 header{
@@ -124,7 +123,6 @@ main{
     background-position: center;
     background-repeat: no-repeat;
     transition: background-image 0.5s ease-in-out;
-
 }
 
 .overlay {
@@ -158,8 +156,7 @@ main{
     color: white;
     font-size: 3rem;
     font-family: 'Rowdies';
-    padding: 20px;
-    
+    padding: 20px; 
 }
 
 .content #contact-btn{
@@ -171,6 +168,7 @@ main{
     color: white;
     cursor: pointer;
     transition: 0.2s ease-in-out;
+    border-radius: 20px;
 }
 
 .content #contact-btn:hover{
@@ -450,4 +448,125 @@ main{
     font-family: "Montserrat";
     text-align: center;
     width: calc(100% - 300px);
+}
+
+
+@media (max-width: 1145px){
+    .cover {
+        height: 80vh;
+        width: 100vw;
+    }
+    .home-slogan{
+        font-size: 2.5rem;
+    }
+    .content {
+        top: 27vh;
+    }
+    .content span{
+        font-size: 14px;
+    }
+    .content #contact-btn{
+        width: 83px;
+        height: 33px;
+        margin: 10px 20px;
+        font-size: 12px;
+        padding: 3px;
+    }
+    
+}
+
+@media (max-width: 968px){
+    .cover {
+        height: 70vh;
+        width: 100vw;
+    }
+    .home-slogan{
+        font-size: 2.2rem;
+    }
+    .content {
+        top: 23vh;
+    }
+    .content span{
+        font-size: 12px;
+    }
+    .content #contact-btn{
+        width: 74px;
+        height: 35px;
+        margin: 10px 20px;
+        font-size: 10px;
+        padding: 3px;
+    }
+    
+}
+
+@media (max-width: 861px){
+    .cover {
+        height: 60vh;
+        width: 100vw;
+    }
+    .home-slogan{
+        font-size: 1.8rem;
+    }
+    .content {
+        top: 19vh;
+    }
+    .content span{
+        font-size: 10px;
+    }
+    .content #contact-btn{
+        width: 72px;
+        height: 33px;
+        margin: 10px 20px;
+        font-size: 10px;
+        padding: 3px;
+    }
+    
+}
+
+@media (max-width: 720px){
+    .cover {
+        height: 50vh;
+        width: 100vw;
+    }
+    .home-slogan{
+        font-size: 1.5rem;
+    }
+    .content {
+        top: 14vh;
+    }
+    .content span{
+        font-size: 8px;
+    }
+    .content #contact-btn{
+        width: 70px;
+        height: 30px;
+        margin: 10px 20px;
+        font-size: 10px;
+        padding: 3px;
+    }
+    
+}
+
+@media (max-width: 612px){
+    .cover {
+        height: 40vh;
+        width: 100vw;
+    }
+    .home-slogan{
+        font-size: 1rem;
+        line-height: 22px;
+    }
+    .content {
+        top: 12vh;
+    }
+    .content span{
+        font-size: 7px;
+    }
+    .content #contact-btn{
+        width: 68px;
+        height: 30px;
+        margin: 8px 20px;
+        font-size: 9px;
+        padding: 3px;
+    }
 }
