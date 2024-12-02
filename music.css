@@ -1,0 +1,68 @@
+.music-cover {
+    position: relative;
+    height: 91vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(img/music-entertainment.jpg);
+}
+
+.music-cover h1{
+    font-size: 60px;
+}
+
+.content{
+    position: absolute;
+    top: 260px;
+}
+
+.content p{
+    color: #e26906;
+    padding-left: 20px;
+    letter-spacing: 2px;
+}
+
+.content button{
+    width: 107px;
+    margin: 41px 20px;
+    height: 40px;
+    cursor: pointer;
+    background-color: burlywood;
+    border: 2px solid white;
+    border-radius: 30px;
+    transition: 0.2s ease-in-out;
+}
+
+.content button:hover{
+    height: 38px;
+    width: 105px;
+    border: none;
+}
+
+.all-content{
+    padding: 50px 150px;
+    text-align: justify;
+}
+
+.all-content h2{
+    font-size: 37px;
+    font-family: "Montserrat",Sans-serif;
+    margin-bottom: 24px;
+    font-weight: 600;
+}
+
+.all-content p{
+    font-family: "Jost",Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: #5e5d5d;
+    margin-bottom: 10px;
+}
+
+.all-content img{
+    margin: 30px 0;
+    width: 100%;
+    
+}
