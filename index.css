@@ -37,6 +37,8 @@ header{
     letter-spacing: 3px;
     font-size: 8px;
     text-transform: uppercase;
+    color: #000;
+    margin-top: -9px;
 }
 
 #logo{
@@ -70,7 +72,7 @@ header{
     cursor: pointer;
 }
 
-.services:hover a, .services:hover .material-symbols-outlined {
+.services:hover a, .services:hover{
     color: #e26906;
 }
 
@@ -104,12 +106,6 @@ header{
 }
 .dropdown-menu li:hover a{
     color: #e26906;
-}
-
-.services{
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 #menu-box{
@@ -293,7 +289,6 @@ main{
     text-transform: uppercase;
     font-family: "Montserrat",Sans-serif;
     font-weight: 500;
-    /* padding: 15px; */
 }
 
 .contact-container #contact-content h3{
@@ -642,9 +637,6 @@ main{
         margin: 1rem;
         display: block;
         
-    }
-    .dropdown .drop-down{
-        display: none;
     }
     .navbar a:hover{
         background-color:#e26906;
