@@ -68,46 +68,6 @@ header{
     color: #e26906;
 }
 
-.services{
-    cursor: pointer;
-}
-
-.services:hover a, .services:hover{
-    color: #e26906;
-}
-
-.dropdown {
-    position: relative;
-
-}
-
-.dropdown .dropdown-menu {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: rgba(17, 16, 16, 0.5);
-    min-width: 180px;
-    z-index: 2;
-}
-
-.dropdown .dropdown-menu li {
-    padding: 8px 12px;
-}
-
-.dropdown .dropdown-menu li a {
-    color: white;
-    display: block;
-    font-size: 15px;
-}
-
-.dropdown:hover .dropdown-menu {
-    display: block;
-}
-.dropdown-menu li:hover a{
-    color: #e26906;
-}
-
 #menu-box{
     cursor: pointer;
     display: none;
