@@ -1,14 +1,14 @@
-.all-cover {
+.corporate-cover {
     position: relative;
     height: 91vh;
     width: 100vw;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(img/all-event.jpg);
+    background-image: url(img/corporate-event.jpg);
 }
 
-.all-cover h1{
+.corporate-cover h1{
     font-size: 60px;
 }
 
@@ -63,6 +63,125 @@
 
 .all-content img{
     margin: 30px 0;
-    height: 660px;
+    width: 100%;
     
 }
+
+@media (max-width: 1145px){
+    .corporate-cover {
+        height: 80vh;
+        width: 100vw;
+    }
+    .corporate-cover h1{
+        font-size: 60px;
+    }
+    .content{
+        top: 160px;
+    }
+    .content p{
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 973px){
+    .corporate-cover {
+        height: 70vh;
+        width: 100vw;
+    }
+    .content{
+        top: 135px;
+    }
+    .corporate-cover h1{
+        font-size: 50px;
+    }
+    .content p{
+        font-size: 17px;
+    }
+    .content button{
+        width: 107px;
+        margin: 35px 20px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 861px){
+    .corporate-cover {
+        height: 60vh;
+        width: 100vw;
+    }
+    .content{
+        top: 150px;
+    }
+    .corporate-cover h1{
+        font-size: 37px;
+    }
+    .content p{
+        font-size: 15px;
+    }
+    .content button{
+        width: 102px;
+        margin: 35px 20px;
+        height: 35px;
+    }
+    .content button:hover{
+        height: 33px;
+        width: 100px;
+    }
+}
+
+@media (max-width: 720px){
+    .corporate-cover {
+        height: 50vh;
+        width: 100vw;
+    }
+    .content{
+        top: 120px;
+    }
+    .corporate-cover h1{
+        font-size: 33px;
+    }
+    .content p{
+        font-size: 13px;
+    }
+    .content button{
+        width: 100px;
+        margin: 25px 20px;
+        height: 33px;
+        font-size: 12px;
+    }
+    .content button:hover{
+        height: 31px;
+        width: 97px;
+    }
+}
+
+@media (max-width: 633px){
+    .corporate-cover {
+        height: 40vh;
+        width: 100vw;
+    }
+    .content{
+        top: 60px;
+    }
+    .corporate-cover h1{
+        font-size: 27px;
+        line-height: 36px;
+    }
+    .content p{
+        font-size: 11px;
+        margin-bottom: -10px;
+        margin-top: -10px;
+    }
+    .content button{
+        width: 95px;
+        margin: 21px 20px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .content button:hover{
+        height: 28px;
+        width: 93px;
+    }
+}
+
+
