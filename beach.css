@@ -21,6 +21,7 @@
     color: #e26906;
     padding-left: 20px;
     letter-spacing: 2px;
+    font-size: 21px;
 }
 
 .content button{
@@ -66,3 +67,122 @@
     width: 100%;
     
 }
+
+@media (max-width: 1145px){
+    .beach-cover {
+        height: 80vh;
+        width: 100vw;
+    }
+    .beach-cover h1{
+        font-size: 60px;
+    }
+    .content{
+        top: 220px;
+    }
+    .content p{
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 973px){
+    .beach-cover {
+        height: 70vh;
+        width: 100vw;
+    }
+    .content{
+        top: 190px;
+    }
+    .beach-cover h1{
+        font-size: 50px;
+    }
+    .content p{
+        font-size: 17px;
+    }
+    .content button{
+        width: 107px;
+        margin: 35px 20px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 861px){
+    .beach-cover {
+        height: 60vh;
+        width: 100vw;
+    }
+    .content{
+        top: 150px;
+    }
+    .beach-cover h1{
+        font-size: 40px;
+    }
+    .content p{
+        font-size: 15px;
+    }
+    .content button{
+        width: 102px;
+        margin: 35px 20px;
+        height: 35px;
+    }
+    .content button:hover{
+        height: 33px;
+        width: 100px;
+    }
+}
+
+@media (max-width: 720px){
+    .beach-cover {
+        height: 50vh;
+        width: 100vw;
+    }
+    .content{
+        top: 120px;
+    }
+    .beach-cover h1{
+        font-size: 35px;
+    }
+    .content p{
+        font-size: 13px;
+    }
+    .content button{
+        width: 100px;
+        margin: 31px 20px;
+        height: 33px;
+        font-size: 12px;
+    }
+    .content button:hover{
+        height: 31px;
+        width: 97px;
+    }
+}
+
+@media (max-width: 633px){
+    .beach-cover {
+        height: 40vh;
+        width: 100vw;
+    }
+    .content{
+        top: 100px;
+    }
+    .beach-cover h1{
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .content p{
+        font-size: 11px;
+        margin-bottom: -10px;
+        margin-top: -10px;
+    }
+    .content button{
+        width: 95px;
+        margin: 21px 20px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .content button:hover{
+        height: 28px;
+        width: 93px;
+    }
+}
+
+

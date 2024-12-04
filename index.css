@@ -10,7 +10,7 @@ header{
     align-items: center;
     background-color: #fff;
     position: fixed;
-    z-index: 999;
+    z-index: 999999;
     width: 100%;
     top: 0;
 }
@@ -51,6 +51,7 @@ header{
     justify-content: space-around;
     width: 100%;
     align-items: center;
+    
 }
 
 .navbar ul{
@@ -582,15 +583,17 @@ main{
         display: initial;
     }
     .navbar{
-        position: absolute;
+        position: fixed;
         top: -500px;
         width: 100vw;
         background-color: #fafbfc;
         display: flex;
         flex-direction: column;
         box-shadow: 4px 4px 0 4px rgb(14 55 54 / 15%);
-        transition: 0.2s all linear;
-        
+        z-index: 999999;
+        transition: top 0.4s ease, opacity 0.4s ease;
+        opacity: 0;
+        visibility: hidden; 
     }
     .navbar a{
         padding: 1rem;
@@ -605,11 +608,10 @@ main{
         width: 90vw;
         text-align: center;
     }
-    .dropdown:hover .dropdown-menu {
-        display: none;
-    }
     .navbar.active{
-        top: 100%;
+        top: 60px;
+        opacity: 1;
+        visibility: visible;
     }
     .logo-container{
         display: none;
