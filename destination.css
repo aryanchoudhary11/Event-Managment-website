@@ -66,3 +66,122 @@
     width: 100%;
     
 }
+
+@media (max-width: 1145px){
+    .destination-cover {
+        height: 80vh;
+        width: 100vw;
+    }
+    .destination-cover h1{
+        font-size: 60px;
+    }
+    .content{
+        top: 220px;
+    }
+    .content p{
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 973px){
+    .destination-cover {
+        height: 70vh;
+        width: 100vw;
+    }
+    .content{
+        top: 190px;
+    }
+    .destination-cover h1{
+        font-size: 50px;
+    }
+    .content p{
+        font-size: 17px;
+    }
+    .content button{
+        width: 107px;
+        margin: 35px 20px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 861px){
+    .destination-cover {
+        height: 60vh;
+        width: 100vw;
+    }
+    .content{
+        top: 150px;
+    }
+    .destination-cover h1{
+        font-size: 40px;
+    }
+    .content p{
+        font-size: 15px;
+    }
+    .content button{
+        width: 102px;
+        margin: 35px 20px;
+        height: 35px;
+    }
+    .content button:hover{
+        height: 33px;
+        width: 100px;
+    }
+}
+
+@media (max-width: 720px){
+    .destination-cover {
+        height: 50vh;
+        width: 100vw;
+    }
+    .content{
+        top: 120px;
+    }
+    .destination-cover h1{
+        font-size: 35px;
+    }
+    .content p{
+        font-size: 13px;
+    }
+    .content button{
+        width: 100px;
+        margin: 31px 20px;
+        height: 33px;
+        font-size: 12px;
+    }
+    .content button:hover{
+        height: 31px;
+        width: 97px;
+    }
+}
+
+@media (max-width: 633px){
+    .destination-cover {
+        height: 40vh;
+        width: 100vw;
+    }
+    .content{
+        top: 100px;
+    }
+    .destination-cover h1{
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .content p{
+        font-size: 11px;
+        margin-bottom: -10px;
+        margin-top: -10px;
+    }
+    .content button{
+        width: 95px;
+        margin: 21px 20px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .content button:hover{
+        height: 28px;
+        width: 93px;
+    }
+}
+
+
