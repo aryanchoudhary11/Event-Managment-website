@@ -89,6 +89,7 @@ main{
     background-position: center;
     background-repeat: no-repeat;
     transition: background-image 0.5s ease-in-out;
+    overflow-y: hidden;
 }
 
 .overlay {
@@ -381,6 +382,7 @@ main{
     line-height: 1.8;
     text-decoration: none;
     font-size: 12px;
+    overflow-y: hidden;
 }
 .inner-container4 #location{
     display: flex;
@@ -693,4 +695,31 @@ main{
     .greeting{
         font-size: 15px;
     }
+}
+
+@media (max-width: 412px){
+    .contact-container{
+        margin-top: -53px;
+        grid-template-columns: repeat(auto-fit, minmax(380px, auto));
+    }
+    .footer-contact #phone-number span,p{
+        font-size: 10px;
+    }
+    
+    .footer-contact #email span,p{
+        font-size: 10px;
+    }
+    
+    .footer-contact #copyright p{
+        font-size: 7px;
+    }
+    
+    .greeting{
+        font-size: 13px;
+    }
+    .inner-container4 #location span{
+        font-size: 25px;
+        width: 80px;
+    }
+    
 }
