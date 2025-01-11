@@ -697,7 +697,7 @@ main{
     }
 }
 
-@media (max-width: 412px){
+@media (max-width: 450px){
     .contact-container{
         margin-top: -53px;
         grid-template-columns: repeat(auto-fit, minmax(380px, auto));
